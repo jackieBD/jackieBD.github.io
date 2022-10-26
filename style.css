@@ -1,0 +1,400 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(71,67,133);
+    background: linear-gradient(0deg, rgba(71,67,133,1) 0%, rgba(147,103,138,1) 100%);
+    font-family: monospace;
+    /* font-family: 'Anonymous Pro', monospace; */
+    margin: 0;
+    color: #4e4463
+
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    margin-bottom: 40px;
+
+}
+
+iframe {
+    width: 525px; 
+    height: 296px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 950px;
+    min-height: 500px;
+    width: 75%;
+    background-color: #FCE0CC;
+    border-radius: 14px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 20%;
+    padding: 0 20px;
+    margin: 20px 0px;
+    border: 2px solid rgba(147,103,138,.5);
+    border-radius: 15px;
+
+}
+
+#sidebar-para > h3 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+#outside-links {
+    font-size: 16px;
+    text-align: center
+}
+
+
+#outside-links > li > a {
+    background-color: #4e4463;
+    color: white;
+    padding: 6px 20px;
+    margin-top: 10px;
+    border-radius:12px;
+    display: block}
+
+#outside-links > li > a:hover {
+    scale: 1.1;
+    color: #F541AC;
+}
+
+#outside-links > li > a:focus {
+    color: #F541AC;
+}
+
+
+#page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin-bottom: 50px;
+
+}
+
+nav {
+    max-width: 900px;
+    width: 75%;
+
+}
+
+
+
+
+#navi {
+    margin-left: 5%;
+    margin-bottom: 0;
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-end;
+}
+
+#navi li {
+    color: #946294;
+
+    letter-spacing: 3px;
+    font-size: 24px;
+    background-color: #FCE0CC;
+    padding: 5px 20px 0px 20px;
+    margin-right: 4%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    text-transform: lowercase;
+    z-index: 1;
+
+}
+
+.active-link {
+    color: rgba(147,103,138,.5);
+        
+}
+.active-link:hover {
+    color: rgba(147,103,138,.5);
+    cursor: default
+
+}
+
+
+ul {
+    padding: 0
+}
+
+#aboutPara {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#aboutPara > p {
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    transition: 300ms;
+    color: #a059b4;
+}
+
+a:hover {
+    color: #F541AC;
+    cursor: pointer;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+b {
+    font-weight: 900;
+}
+
+#pfp {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+
+#projects-div {
+    margin: 0 20px;
+    display: grid;
+    grid-template:  "a a"
+                    "a a"
+                    "a a";
+    grid-gap: 6%;
+    margin-bottom: 40px;
+}
+
+.proj > p {
+    font-size: 14px;
+}
+.project-txt > p {
+    font-size: 17px;
+    margin: 0;
+}
+
+.project-txt > h4 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.proj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 30px;
+
+    width: 100%
+}
+
+.project-img {
+    margin-right: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+
+#credentials{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#credentials > a {
+    padding: 6px 15px;
+    font-size: 16px;
+    border: 2px rgba(147,103,138,.5) solid;
+    border-radius: 6px;
+}
+
+
+
+@media (max-width: 1050px) {
+
+    #aboutPara {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #sidebar-para {
+        max-width: 150px;
+    }
+
+
+
+
+
+    #projects-div {
+        margin: 0 ;
+        margin-bottom: 50px;
+        grid-gap: 4%;
+
+    }
+
+    #page {
+        margin-top: 40px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+ 
+    #wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    #sidebar {
+        margin-top: 20px;
+        flex-direction: row;
+        max-width: 760px;
+        width: 80%
+    }
+
+    
+
+    nav {
+        width: 80%;
+    
+    }
+
+    #navi li {
+        letter-spacing: 2px;
+        font-size: 22px;
+        padding: 5px 17px 0px 17px;
+        margin-right: 3%;
+    
+    }
+
+
+    #pfp {
+        margin: 20px;
+        max-width: 180px;
+        height:fit-content
+    }
+  }
+
+
+
+@media (max-width: 700px) {
+
+    #aboutPara {
+        margin-bottom: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #projects-div {
+        margin: 0 20px;
+        display: grid;
+        grid-template:  "a"
+                        "a"
+                        "a"
+                        "a"
+                        "a"
+                        "a";
+        grid-gap: 6%;
+        margin-bottom: 110px;
+    }
+
+    #page {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    iframe {
+        margin-top: 40px;
+        width: 340px;
+        height: 200px
+    }
+
+ 
+    #wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+    }
+    #sidebar {
+        flex-direction: column;
+        max-width: 230px;
+        width: 80%
+    }
+
+    #sidebar-para {
+        max-width: 200px;
+    }
+
+
+    #navi li {
+        letter-spacing: 1px;
+        font-size: 20px;
+        padding: 5px 15px 0px 15px;
+        margin-right: 2%;
+    
+    }
+
+    nav {
+        width: 85%;
+    
+    }
+  }
+
+  
+  @media (max-width: 420px) {
+
+    iframe {
+        margin-top: 20px;
+        width: 230px;
+        height: 150px
+    }
+
+    #navi li {
+        letter-spacing: 0px;
+        font-size: 18px;
+        padding: 4px 10px 0px 4px;
+        margin-right: 2%;
+    
+    }
+    #projects-div {
+        /* margin: 0 20px;
+        display: grid;
+        grid-template:  "a"
+                        "a"
+                        "a"
+                        "a"
+                        "a"
+                        "a";
+                        */
+        grid-gap: 2%; 
+        margin-bottom: 70px;
+    }
+
+  }

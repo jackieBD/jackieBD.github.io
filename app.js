@@ -51,6 +51,19 @@ projectsBtn.addEventListener("click", ()=>{
             </div>
 
             <div class = "proj">
+            <img class = "project-img" src = "images/wizzyicon.png">
+
+            <div class = "project-txt">
+                    <h4><a target="_blank" href="https://jackiebd.github.io/wiz-battle/">Wizard Battle</a></h4>
+                    <p>RPG inspired web browser game. Roll dice to defeat monsters.
+                    <br>
+                    <a target="_blank" href = "https://github.com/jackieBD/wiz-battle">Code on Github</a>
+                    </p>
+            </div>
+        </div>
+
+
+            <div class = "proj">
                 <img class = "project-img" src = "images/mm.png">
 
                 <div class = "project-txt">
@@ -101,17 +114,6 @@ projectsBtn.addEventListener("click", ()=>{
                 </div>
             </div>
 
-            <div class = "proj">
-                <img class = "project-img" src = "images/eye.png">
-
-                <div class = "project-txt">
-                        <h4><a target="_blank" href="https://jackiebd.github.io/eye-excercise/">Eyes</a></h4>
-                        <p>A javascript excersize that features a pair of eyes.
-                        <br>
-                        <a target="_blank" href = "https://github.com/jackieBD/eye-excercise">Code on Github</a>
-                        </p>
-                </div>
-            </div>
 
         </div>    
     `

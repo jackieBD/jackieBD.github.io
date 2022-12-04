@@ -89,31 +89,6 @@ projectsBtn.addEventListener("click", ()=>{
                 </div>                       
             </div>
 
-            <div class = "proj">
-                <img class = "project-img" src = "images/boredbot.png">
-
-                <div class = "project-txt">
-                        <h4><a target="_blank" href="https://jackiebd.github.io/bored-bot/">Bored Bot</a></h4>
-                        <p>A bot that gives you activities to cure boredom.
-                        <br>
-                        <a target="_blank" href = "https://github.com/jackieBD/bored-bot">Code on Github</a>
-                        </p>
-
-                </div>
-            </div>
-            
-            <div class = "proj">
-                <img class = "project-img" src = "images/colors.png">
-
-                <div class = "project-txt">
-                        <h4><a target="_blank" href="https://jackiebd.github.io/color-generator/">Color Generator</a></h4>
-                        <p>Randomly selects as many colors as you choose.
-                        <br>
-                        <a target="_blank" href = "https://github.com/jackieBD/color-generator">Code on Github</a>
-                        </p>
-                </div>
-            </div>
-
 
         </div>    
     `

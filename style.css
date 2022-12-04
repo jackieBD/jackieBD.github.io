@@ -181,21 +181,21 @@ b {
     grid-template:  "a a"
                     "a a"
                     "a a";
-    grid-gap: 6%;
-    margin-bottom: 40px;
+    grid-gap: 10%;
+    margin-bottom: 10px;
 }
 
 .proj > p {
-    font-size: 14px;
+    font-size: 16px;
 }
 .project-txt > p {
-    font-size: 17px;
+    font-size: 18px;
     margin: 0;
 }
 
 .project-txt > h4 {
     margin: 0px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .proj {
@@ -206,13 +206,14 @@ b {
 
     font-size: 30px;
 
-    width: 100%
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .project-img {
     margin-right: 12px;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
 }
 
@@ -235,6 +236,10 @@ b {
 
 
 @media (max-width: 1050px) {
+    .project-img {
+        width: 60px;
+        height: 60px;
+    }
 
     #aboutPara {
         margin-bottom: 10px;

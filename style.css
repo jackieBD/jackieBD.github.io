@@ -8,7 +8,7 @@ body {
     font-family: monospace;
     /* font-family: 'Anonymous Pro', monospace; */
     margin: 0;
-    color: #4e4463
+    color: #231434
 
 }
 main{
@@ -108,7 +108,7 @@ nav {
 }
 
 #navi li {
-    color: #946294;
+    color: #72309D;
 
     letter-spacing: 3px;
     font-size: 24px;
@@ -149,7 +149,7 @@ ul {
 a {
     text-decoration: none;
     transition: 300ms;
-    color: #a059b4;
+    color: #72309D;
 }
 
 a:hover {
@@ -227,8 +227,8 @@ b {
 
 #credentials > a {
     padding: 6px 15px;
-    font-size: 16px;
-    border: 2px rgba(147,103,138,.5) solid;
+    font-size: 20px;
+    border: 1.4px rgba(147,103,138,.5) solid;
     border-radius: 6px;
 }
 
